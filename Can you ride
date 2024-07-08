@@ -1,0 +1,5 @@
+height = int(input('height in cm: '))
+if height >= 120 and height <= 200:
+    print('you can ride')
+if height < 120 or height > 200:
+    print('you can not ride')
